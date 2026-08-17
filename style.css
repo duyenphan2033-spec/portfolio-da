@@ -514,14 +514,15 @@ p {
     width: 100%;
     min-width: 500px;
     border-collapse: collapse;
-    table-layout: auto;
+    table-layout: fixed;
     margin-top: 10px;
 }
 th, td {
     padding: 8px 10px;
     border: 1px solid var(--black);
     text-align: left;
-    white-space: nowrap;
+    word-wrap: break-word;
+    white-space: normal;
 }
 thead th {
     background-color: var(--white);
