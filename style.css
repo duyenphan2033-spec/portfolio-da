@@ -491,7 +491,7 @@ p {
 /*dieu chinh bang va model*/
 .model-performance {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
     gap: 30px;
     align-items: start;
 }
@@ -505,6 +505,7 @@ p {
 }
     /*Chi tiết*/
 .table-wrapper {
+    width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
