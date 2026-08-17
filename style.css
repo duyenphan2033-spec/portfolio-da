@@ -500,9 +500,6 @@ p {
 .model-performance .performance-item:last-child {
     flex: 1;
 }
-.model-performance .performance-item {
-    min-width: 0;
-}
 @media (max-width: 768px) {
     .model-performance {
         flex-direction: column;
@@ -510,7 +507,6 @@ p {
 }
     /*Chi tiết*/
 .table-wrapper {
-    width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -518,15 +514,14 @@ p {
     width: 100%;
     min-width: 500px;
     border-collapse: collapse;
-    table-layout: fixed;
+    table-layout: auto;
     margin-top: 10px;
 }
 th, td {
     padding: 8px 10px;
     border: 1px solid var(--black);
     text-align: left;
-    word-wrap: break-word;
-    white-space: normal;
+    white-space: nowrap;
 }
 thead th {
     background-color: var(--white);
