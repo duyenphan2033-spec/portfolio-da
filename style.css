@@ -491,14 +491,13 @@ p {
 /*dieu chinh bang va model*/
 .model-performance {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     align-items: start;
 }
-.model-performance .performance-item:first-child {
-    flex: 1.5;
-}
-.model-performance .performance-item:last-child {
-    flex: 1;
+.model-performance .performance-item {
+    min-width: 0;
+    flex: 1 1 300px;
 }
 @media (max-width: 768px) {
     .model-performance {
