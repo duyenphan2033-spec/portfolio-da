@@ -490,18 +490,17 @@ p {
 }
 /*dieu chinh bang va model*/
 .model-performance {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
     gap: 30px;
     align-items: start;
 }
 .model-performance .performance-item {
     min-width: 0;
-    flex: 1 1 300px;
 }
 @media (max-width: 768px) {
     .model-performance {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 }
     /*Chi tiết*/
