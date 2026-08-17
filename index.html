@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="nav-toggle" id="navToggle" aria-label="Mở menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#home">HOME</a>
+                <a href="#about-me">ABOUT ME</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <section class="say-hello" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>DATA ANALYST<br>
+                    <span class="hero-sub-title">PORTFOLIO</span>
+                </h1>
+                <p class="hero-tagline">From raw numbers to real decisions.</p>
+            </div>
+            <div class="'hero-graphic">
+                <div class="bar-chart">
+                    <span style="--h: 40%;"></span>
+                    <span style="--h: 65%;"></span>
+                    <span style="--h: 50%;"></span>
+                    <span style="--h: 85%;"></span>
+                    <span style="--h: 70%;"></span>
+                </div>
+                <svg class="trend-line" viewBox="0 0 200 60" preserveAspectRatio="none">
+                    <polyline points="0,50 40,35 80,42 120,15 160,25 200,5" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-me">
+        <h2 id="about-me">ABOUT ME</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/me-round.png" alt="Phan-Thi-Duyen">
+            </div>
+            <div class="about-text">
+                <p>My name is Duyen, and i am currently transitioning into a Data Analyst role. With 1 year of experience as a Business Assistant, I had the opportunity to work directly with sales data from various channels, collecting, processing, and organizing it into weekly, monthly, and quarterly business reports. This experience helped me better understand how data is used in practice and its role in supporting business decision-making.</p>
+                <p>To develop my expertise in data analysis, I have actively taken courses in SQL, Excel, Python, and Power BI, along with self-study and hands-on practice through personal projects. I especially enjoy exploring data, uncovering insights, and turning numbers into clear, visual information.</p>
+                <p>With a background in Finance – Banking, hands-on experience, and an analytical, proactive mindset, I hope to combine business understanding with data analytics to solve real-world problems, particularly within the Finance & Banking industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section skills">
+        <h2 id="skills">SKILLS</h2>
+        <div class="group technical-skills">
+            <h3 id="technical-skills">Technical Skills</h3>
+            <div class="skill-group data-analytics">
+                <h4>Data Analytics</h4>
+                <ul>
+                    <li>Data Cleaning & Preprocessing</li>
+                    <li>Exploratory Data Analysis (EDA)</li>
+                    <li>Statistical Analysis</li>
+                    <li>Data Segmentation & Binning</li>
+                </ul>
+            </div>
+            <div class="skill-group data-visualization-reporting">   
+                <h4>Data Visualization & Reporting</h4>
+                <ul>
+                    <li>Data Visualization</li>
+                    <li>Dashboard Development</li>
+                    <li>Business Reporting</li>
+                    <li>Data Storytelling</li>
+                </ul>
+            </div>        
+            <div class="skill-group machine-learning">
+                <h4>Machine Learning</h4> 
+                <ul>
+                    <li>Feature Engineering</li>
+                    <li>Regression</li>
+                    <li>Classification</li>
+                    <li>Model Evaluation</li>  
+                </ul>
+            </div> 
+        </div>
+        <div class="group tools">
+            <h3 id="tools">Tools</h3>
+            <div class="skill-group programming-query">
+                <h4>Programming & Query</h4>
+                <ul>
+                    <li><img src="images/icon-python.png" alt="icon-python" class="skill-icon">Python</li>
+                    <li><img src="images/icon-sql.png" alt="icon-sql" class="skill-icon">SQL</li>
+                </ul>
+            </div>
+            <div class="skill-group spreadsheet">
+                <h4>Spreadsheet</h4>
+                <ul>
+                    <li><img src="images/icon-excel.png" alt="icon-excel" class="skill-icon">Microsoft Excel</li>
+                    <li><img src="images/icon-sheet.png" alt="icon-google-sheet" class="skill-icon">Google Sheets</li>
+                </ul>
+            </div>        
+            <div class="skill-group business-intelligence">
+                <h4>Business Intelligence</h4>
+                <ul>
+                    <li><img src="images/icon-power-bi.png" alt="icon-power-bi" class="skill-icon">Power BI</li>
+                </ul>
+            </div>        
+            <div class="skill-group development">
+                <h4>Development</h4>
+                <ul>
+                    <li><img src="images/icon-git.png" alt="icon-git" class="skill-icon">Git & GitHub</li>
+                    <li><img src="images/icon-jupyter.png" alt="icon-jupyter" class="skill-icon">Jupyter Notebook</li>
+                    <li><img src="images/icon-vscode.png" alt="icon-vs-code" class="skill-icon">VS Code</li>
+                </ul>
+            </div>      
+        </div> 
+    </section>
+    
+    <section class="section projects">
+        <h2 id="projects">PROJECTS</h2>
+        <div class="project-cards">
+            <div class="project credit-default-risk-prediction">
+                <h3>Credit Default Risk Prediction</h3>
+                <p>
+                    <strong>Description:</strong> 
+                    Analyzed customer data to identify factors related to credit default and developed credit risk prediction models using Logistic Regression, Decision Tree, and XGBoost.
+                </p>
+                <p>
+                    <strong>Tools:</strong>
+                    <span class="tool-tag">Python</span>
+                    <span class="tool-tag">Pandas</span>
+                    <span class="tool-tag">NumPy</span>
+                    <span class="tool-tag">Matplotlib</span>
+                    <span class="tool-tag">Seaborn</span>
+                    <span class="tool-tag">Scikit-learn</span>
+                    <span class="tool-tag">XGBoost</span>
+                </p>
+                <p>
+                    <strong>Key Results:</strong>
+                    Analyzed factors such as past due, credit utilization, age, income, and debt ratio. Compared three models using AUC, Gini, and KS, with XGBoost achieving an AUC of 0.8496, Gini of 0.6993, and F1-score of 0.3365.
+                </p>
+                <a href="#detail-credit-default-risk-prediction" class="project-link">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project sales-performance">
+                <h3>Sales Performance Analysis</h3>
+                <p>
+                    <strong>Description:</strong>
+                    Analyzed sales data to evaluate business performance across regions, products, sales channels, and time, while building interactive reports to support sales tracking and business analysis.
+                </p>
+                <p>
+                    <strong>Tools:</strong>
+                    <span class="tool-tag">Power BI</span>
+                    <span class="tool-tag">Power Query</span>
+                    <span class="tool-tag">DAX</span>
+                    <span class="tool-tag">Microsoft Excel</span>
+                </p>
+                <p>
+                    <strong>Key Results:</strong>
+                    North America contributed approximately 59% of total sales, while the Store channel accounted for 56.14%. Home Appliances was the top-performing category, accounting for 31.12% of total sales. In the PVM analysis, Volume Impact was the largest contributor to sales.
+                </p>
+                <a href="#detail-sales-performance" class="project-link">
+                    View Project
+                </a>
+            </div>
+            
+            <div class="project data-analyst-job-market-analysis">
+                <h3>Data Analyst Job Market</h3>
+                <p>
+                    <strong>Description:</strong>
+                    Analyzed Data Analyst skill demands in the job market and compared them with current training trends to identify gaps between business requirements and training content.
+                </p>
+                <p>
+                    <strong>Tools:</strong>
+                    <span class="tool-tag">Python</span>
+                    <span class="tool-tag">SQL Server</span>
+                    <span class="tool-tag">Power BI</span>
+                    <span class="tool-tag">BeautifulSoup</span>
+                    <span class="tool-tag">Requests</span>
+                </p>
+                <p>
+                    <strong>Key Results:</strong>
+                    Analyzed job postings from VietnamWorks and Glints, combined with course data from Coursera to identify skill trends. The results showed that most current courses focus on the Beginner level and mainly provide foundational knowledge, highlighting the need for more advanced training programs and greater emphasis on project-based learning.
+                </p>
+                <a href="#detail-data-analyst-job-market-analysis" class="project-link">
+                    View Project
+                </a>
+            </div>
+        </div>
+
+        <div class="project-details">
+            <div id="detail-credit-default-risk-prediction" class="project-detail">
+                <h3><strong>Credit Default Risk Prediction</strong></h3>
+                <h4><strong>1. Overview</strong></h4>
+                <p>Analyzed customer data to identify factors related to credit default and developed credit risk prediction models using Logistic Regression, Decision Tree, and XGBoost.</p>
+                <h4><strong>2. Dataset</strong></h4>
+                <p><strong>Dataset:</strong> Give Me Some Credit</p>
+                <p><strong>Target variable:</strong> SeriousDlqin2y</p>
+                <p><strong>Target: </strong>Predicting customers who are likely to default within the next two years.</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>RevolvingUtilizationOfUnsecuredLines</li>
+                    <li>NumberOfTimes90DaysLate</li>
+                    <li>NumberOfTime30-59DaysPastDueNotWorse</li>
+                    <li>NumberOfTime60-89DaysPastDueNotWorse</li>
+                </ul>
+                <h4><strong>3. Methodology</strong></h4>
+                <div class="methodology">
+                    <div class="methodology-step">
+                        <p><strong>Data Preparation</strong></p>
+                        <p>Cleaned data and handled missing values, invalid values, and outliers.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Exploratory Data Analysis</strong></p>
+                        <p>Explored data patterns, default rates, correlations, and key risk factors.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Feature Engineering</strong></p>
+                        <p>Applied binning and WOE transformation to selected features.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Model Development</strong></p>
+                        <p>Built Logistic Regression, Decision Tree, and XGBoost models.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Model Evaluation</strong></p>
+                        <p>Compared models using ROC-AUC, Gini, KS, and classification metrics.</p>
+                    </div>
+                </div>
+                <h4><strong>4. Key Results</strong></h4>
+                <ul>
+                    <li><strong>Key risk factors:</strong>
+                    Payment delinquency history and credit utilization were the two most predictive risk factor groups, consistently identified across IV, regression coefficients, and feature importance analyses.
+                    </li>
+                    <li>
+                        <strong>Risk patterns:</strong>
+                        Customers utilizing more than 85% of their credit limit had a default rate over 11 times higher than those utilizing less than 15%. Default rates also increased approximately linearly with the number of past-due occurrences.
+                    </li>
+                    <li>
+                        <strong>Model performance:</strong>
+                        All three models achieved comparable performance (AUC ~0.84–0.85). XGBoost performed slightly better, achieving a ROC-AUC of 0.8496, Gini of 0.6993, and F1-score of 0.3365, while Logistic Regression delivered comparable predictive performance with the advantage of greater interpretability.
+                    </li>
+                </ul>
+                <h4><strong>5. Model Performance</strong></h4>
+                <div class="model-performance">
+                    <div class="performance-item">
+                        <p><strong>Performance Overview</strong></p>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Index</th>
+                                        <th>Logistic Regression</th>
+                                        <th>Decision Tree</th>
+                                        <th>XGBoost</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>AUC</td>
+                                        <td>0.8495</td>
+                                        <td>0.8392</td>
+                                        <td>0.8496</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gini</td>
+                                        <td>0.6990</td>
+                                        <td>0.6785</td>
+                                        <td>0.6992</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KS Statistic</td>
+                                        <td>0.5474</td>
+                                        <td>0.5285</td>
+                                        <td>0.5433</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Precision</td>
+                                        <td>0.2091</td>
+                                        <td>0.1879</td>
+                                        <td>0.2198</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Recall</td>
+                                        <td>0.7287</td>
+                                        <td>0.7606</td>
+                                        <td>0.7181</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F1-score</td>
+                                        <td>0.3249</td>
+                                        <td>0.3014</td>
+                                        <td>0.3365</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>All three models achieved comparable classification performance (ROC-AUC ~0.84–0.85). At the 0.5 threshold, the models prioritize higher Recall to minimize missed high-risk customers, at the cost of lower Precision and a higher false-positive rate.</p>
+                    </div>
+                    <div class="performance-item">
+                        <p><strong>ROC Curve Analyst</strong></p>
+                        <img src="images\roc-curve.png" alt="ROC Curve Comparison">
+                        <p>All three ROC curves are clearly shifted toward the upper-left corner relative to the random baseline, indicating strong classification performance. The ROC curves of XGBoost and Logistic Regression nearly overlap across most of the range, consistent with their negligible ROC-AUC difference of 0.0001.</p>
+                    </div>
+                </div>
+                <h4><strong>6. Business Recommendations</strong></h4>
+                <ul>
+                    <li>
+                        <strong>Use the model as a decision support tool:</strong>
+                        Combine risk predictions with customer risk segmentation (low, medium, high) to support credit decisions rather than relying solely on binary approval or rejection.
+                    </li>
+                    <li>
+                        <strong>Prioritize Logistic Regression as the Champion Model:</strong>
+                        With performance comparable to XGBoost but greater interpretability, Logistic Regression is well suited for credit risk management and decision explainability.
+                    </li>
+                    <li>
+                        <strong>Focus on key risk factors:</strong>
+                        Incorporate payment delinquency history and credit utilization into credit risk assessment and early warning systems, particularly for customers showing increasing risk signals.
+                    </li>
+                </ul>
+            </div>
+            <div id="detail-sales-performance" class="project-detail">
+                <h3><strong>Sales Performance Analysis</strong></h3>
+                <h4><strong>1. Overview</strong></h4>
+                <p>Analyzed Contoso's business performance from 2007–2009, focusing on Sales, Profit, products, regions, sales channels, and customer behavior. The results were visualized through an interactive Power BI dashboard to support performance tracking and data-driven business decisions.</p>
+                <h4><strong>2. Dataset</strong></h4>
+                <p><strong>Dataset:</strong> Contoso Sales Data</p>
+                <p><strong>Period:</strong> 2007-2009</p>
+                <h4><strong>3. Methodology</strong></h4>
+                <div class="methodology">
+                    <div class="methodology-step">
+                        <p><strong>Data Cleaning</strong></p>
+                        <p>Handled missing values, removed duplicates, standardized data formats before loading into Power BI.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Data Modeling & DAX Measures</strong></p>
+                        <p>Built the data model, developed DAX measures and Price-Volume-Mix analysis.</p>
+                    </div>
+                    
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Dashboard Visualization</strong></p>
+                        <p>Created interactive report pages with multi-dimensional slicers by Year, Category, Channel, Country.</p>
+                    </div>
+                </div>
+                <h4><strong>4. Key Results</strong></h4>
+                <ul>
+                    <li>Net Sales Amount reached 3,207.87M with 13,642K units sold, generating 1,777.91M in profit.</li>
+                    <li>North America led in revenue (1.89bn), nearly 3x Europe and Asia.</li>
+                    <li>Store channel accounted for 56.14% of total sales, the dominant channel.</li>
+                    <li>Home Appliances and Computers were top categories, contributing ~58% of revenue.</li>
+                    <li>Gross Margin improved slightly year-over-year (55.01% → 55.50%), though it varied notably by season and region — North America saw margin drop sharply during Holiday season (52.70%), contrasting with Asia's peak (57.19%) in the same period, suggesting differing pricing strategies or product mix across regions.</li>
+                    <li>Volume growth was the main driver of revenue growth, outweighing price and new product effects.</li>
+                </ul>
+                <h4><strong>5. Dashboard</strong></h4>
+                <div class="dashboard">
+                    <div class="performance-item">
+                        <p><strong>Sales Performance Overview</strong></p>
+                        <img src="images/overview-sales-performance.png" alt="Sales Performance Overview Dashboard">
+                        <p>Business performance overview: Net Sales 3,207.87M, 13,642K units sold, profit 1,777.91M. Interactive slicers by Category, Year, Channel, Country.</p>
+                    </div>
+                    <div class="performance-item">
+                        <p><strong>Price-Volume-Mix Analysis</strong></p>
+                        <img src="images/pvm-report-sales-performance.png" alt="Price Volume Mix Analysis">
+                        <p>Price-Volume-Mix analysis decomposing revenue growth (935M): Volume is the main driver (825M), outweighing Price and new product effects.</p>
+                    </div>
+                    <div class="performance-item">
+                        <p><strong>Customer Purchase Behavior</strong></p>
+                        <img src="images/customer-behavior-report-sales-performance.png" alt="Customer Purchase Behavior Report">
+                        <p>71.48% of profit comes from WorkDays. Gross Margin varies by season and region — Asia peaks at 57.19% during Holiday, contrasting North America (52.70%).</p>
+                    </div>
+                </div>
+                <h4><strong>6. Business Recommendations</strong></h4>
+                <ul>
+                    <li>Price Impact was near zero, suggesting untapped pricing leverage —  consider testing price adjustments in select categories.</li>
+                    <li>North America's Gross Margin dropped sharply during Holiday (52.70%), contrasting Asia's trend — review regional and seasonal pricing policies.</li>
+                    <li>Volume remains the main growth driver (825M) — continue prioritizing market expansion and sales volume.</li>
+                    <li>Store remains the dominant channel (56.14%) — further evaluate Online channel potential to diversify revenue.</li>
+                </ul>
+            </div>
+            <div id="detail-data-analyst-job-market-analysis" class="project-detail">
+                <h3><strong>Data Analyst Job Market</strong></h3> 
+                <h4><strong>1. Overview</strong></h4>
+                <p>Analyze the Data Analyst job market and training trends to identify the skills demanded by employers, evaluate how well existing courses meet industry requirements, and propose directions for developing training programs aligned with market needs</p>
+                <h4><strong>2. Data</strong></h4>
+                <p><strong>Job posting:</strong> Glints, Vietnamworks</p>
+                <p><strong>Training course:</strong> Coursera</p>
+                <p><strong>Survey:</strong> Stack Overflow 2019</p>
+                <h4><strong>3. Methodology</strong></h4>
+                <div class="methodology">
+                    <div class="methodology-step">
+                        <p><strong>Data Collection</strong></p>
+                        <p>Use BeautifulSoup and Selenium to collect Data Analyst job postings from Glints and VietnamWorks, gather Data Analytics course information from Coursera, and leverage the Stack Overflow Developer Survey 2019 to analyze skills and technologies used by the developer community.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Data Cleaning & Skill Mapping</strong></p>
+                        <p>Clean and standardize the data, then map equivalent skills through skill normalization to ensure consistency across the two data sources.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Data Storage & Analysis</strong></p>
+                        <p>Store and query data, then analyze the frequency and proportion of skills appearing in job postings and courses.</p>
+                    </div>
+                    <span class="arrow">→</span>
+                    <div class="methodology-step">
+                        <p><strong>Dashboard Visualization</strong></p>
+                        <p>Created interactive dashboard to visualize insights into market demand for skills and current training trends.</p>
+                    </div>
+                </div>
+                <h4><strong>4. Key Results</strong></h4>
+                <ul>
+                    <li>Most Data Analytics courses focus on foundational knowledge and skills, making them suitable for beginners.</li>
+                    <li>There is a gap between training content and job market demand, as employers require a broader and more practical range of skills.</li>
+                    <li>The findings highlight the need to better align training programs with market needs and strengthen practical, job-relevant skills.</li>
+                </ul>
+                <h4><strong>5. Dashboard</strong></h4>
+                <div class="dashboard">
+                    <div class="performance-item">
+                        <p><strong>Skills Demand Visualization</strong></p>
+                        <img src="images/jpb-posting.png" alt="Skill Demand Visualization">
+                        <p>The collected data shows that Data Analysis (17.48%) and SQL (12.30%) are the most in-demand skills, followed by Business Analysis (8.09%) and Power BI (6.47%). In terms of industries, Finance (50 postings) and IT (46 postings) have the highest demand for Data Analysts.</p>
+                    </div>
+                    <div class="performance-item">
+                        <p><strong>Training Course Visualization</strong></p>
+                        <img src="images/course.png" alt="Training Course Visualization">
+                        <p>The survey of 348 courses covering 5,718 skills shows that 55.17% of courses are at the Beginner level, while only 5.46% are at the Advanced level. Course content is primarily focused on Other Skills (48.09%) and Analyst Skills (43.67%), while Database and Programming Languages account for smaller shares.</p>
+                    </div>
+                    <div class="performance-item">
+                        <p><strong>Skills Gap Analysis</strong></p>
+                        <img src="images/skill-gap.png" alt="Skills Gap Analysis">
+                        <p>The comparison between Course Skills and Job Skills reveals a clear skill gap between training and recruitment. Analyst Skills account for 43.67% of course content but remain below market demand (55.99%), while Database Skills represent only 5.02% of training content but are required in 13.92% of job postings. This indicates that current training content does not fully align with actual industry needs.</p>
+                    </div>
+                </div>
+                <h4><strong>6. Business Recommendations</strong></h4>
+                <ul>
+                    <li>Develop more advanced training programs beyond the current Beginner-focused approach.</li>
+                    <li>Integrate Business Analysis concepts into Data Analyst training to strengthen business understanding.</li>
+                    <li>Increase project-based learning to provide hands-on experience aligned with industry requirements.</li>
+                    <li>Incorporate AI tools and applications into training programs to prepare learners for the evolving Data Analytics landscape.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section education">
+        <h2 id="education">EDUCATION</h2>
+        <h3>Education</h3>
+        <h4>Banking Academy</h3>
+        <p>Period: 2021 - 2025</p>
+        <p>Major: Finance - Banking</p>
+        <h3>Certificate</h3>
+        <p>Data Analyst - VTI Academy</p>
+        <p>Toeic</p>
+        <h3>Another Skills</h3>
+        <p>Basic Conversational Chinese</p>
+    </section>
+
+    <section class="section contact">
+        <h2 id="contact">CONTACT</h2>
+        <p>I’m open to new opportunities and collaborations in Data Analytics. Feel free to get in touch!</p>
+        <div class="contact-links">
+            <a href="mailto:duyenphan2033@gmail.com">📧 Email: duyenphan2033@gmail.com</a>
+            <p>📞 Phone: +84 843 500 403</p>
+            <a href="https://github.com/duyenphan2033-spec" target="_blank">💻 GitHub: https://github.com/duyenphan2033-spec</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
