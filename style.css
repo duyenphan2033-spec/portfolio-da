@@ -490,22 +490,26 @@ p {
 }
 /*dieu chinh bang va model*/
 .model-performance {
-    display: grid;
-    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+    display: flex;
     gap: 30px;
     align-items: start;
+}
+.model-performance .performance-item:first-child {
+    flex: 1.5;
+}
+.model-performance .performance-item:last-child {
+    flex: 1;
 }
 .model-performance .performance-item {
     min-width: 0;
 }
 @media (max-width: 768px) {
     .model-performance {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 }
     /*Chi tiết*/
 .table-wrapper {
-    width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
