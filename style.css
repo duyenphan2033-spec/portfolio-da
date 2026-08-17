@@ -550,7 +550,7 @@ thead th {
     flex: 1;
 }
 .dashboard strong {
-
+    display: block;
     text-align: left;
 }
 .dashboard img {
